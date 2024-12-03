@@ -20,7 +20,9 @@ int player(char *nickname, int sizename)
 
 int battle(int player_gold)
 {
-  int goblin_gold = 15;
+  srand(time(NULL));
+
+  int goblin_gold = rand() % 15;
 	for (int goblin_hp = 3; goblin_hp >= 0; goblin_hp--)
   	{
 			if (goblin_hp > 0 && goblin_hp != 3)
