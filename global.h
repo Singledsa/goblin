@@ -6,7 +6,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-int player(char *nickname, int sizename);
+int hello(char *nickname, int sizename);
 int battle(int player_gold);
+int tavern(int player_gold);
 
 #endif
